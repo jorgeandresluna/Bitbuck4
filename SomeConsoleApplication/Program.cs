@@ -1,4 +1,4 @@
-﻿using System;
+﻿﻿using System;
 namespace SomeConsoleApplication
 {
     public class Program
@@ -14,6 +14,8 @@ namespace SomeConsoleApplication
             {
                 Console.WriteLine("false");
             }
+            
+            //TODO
 
             Console.ReadKey();
         }
