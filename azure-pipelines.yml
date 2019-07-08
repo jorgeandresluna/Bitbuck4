@@ -10,7 +10,7 @@ pr:
 - branch-for-pr
 
 pool:
-  vmImage: 'ubuntu-latest'
+  vmImage: 'windows-latest'
   demands:
   - msbuild
   - visualstudio
