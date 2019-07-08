@@ -5,7 +5,7 @@ pr:
 - branch-for-pr
 
 pool:
-  vmImage: 'windows-latest'
+  vmImage: 'vs2017-win2016'
   demands:
   - msbuild
   - visualstudio
