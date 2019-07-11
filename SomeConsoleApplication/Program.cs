@@ -1,4 +1,4 @@
-﻿﻿using System;
+﻿﻿﻿using System;
 namespace SomeConsoleApplication
 {
     public class Program
@@ -22,6 +22,7 @@ namespace SomeConsoleApplication
 
         public static bool AlwaysReturnsTrue()
         {
+            //TODO
             return true;
         }
 
