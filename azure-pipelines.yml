@@ -19,6 +19,12 @@ schedules:
     include:
     - master
     - branch-for-pr
+  pr:
+    branches:
+      include:
+      - branch-for-pr
+  always: true
+      
 
 variables:
   buildConfiguration: 'Release'
