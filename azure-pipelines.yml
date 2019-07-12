@@ -12,6 +12,14 @@ pool:
   - vstest
   - java
 
+schedules:
+- cron: "0 5 * * Mon-Sun"
+  displayName: 5:00 AM (UTC) daily build for master and feature branch
+  branches:
+    include:
+    - master
+    - branch-for-pr
+
 variables:
   buildConfiguration: 'Release'
   buildPlatform: 'any cpu'
